@@ -1,0 +1,105 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.CoinCurrency.Block.ATM.name",
+    "Description": "server.items.CoinCurrency.Block.ATM.description"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Blocks.Structural"
+  ],
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -27
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Stone",
+    "CustomModel": "Blocks/CoinCurrency_Block_ATM.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/CoinCurrency_Block_ATM.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "HitboxType": "CoinCurrency_Block_ATM",
+    "Material": "Solid",
+    "Opacity": "Semitransparent",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "ParticleColor": "#454545",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "On",
+              "On": "Off",
+              "Off": "On"
+            }
+          }
+        ]
+      }
+    },
+    "State": {
+      "Definitions": {
+        "On": {
+          "CustomModelTexture": [
+            {
+              "Texture": "BlockTextures/CoinCurrency_Block_ATM_On.png"
+            }
+          ],
+          "CustomModel": "Blocks/CoinCurrency_Block_ATM.blockymodel",
+          "InteractionHint": "",
+          "AmbientSoundEventId": "ATM_ON_Loop",
+          "Looping": true,
+          "InteractionSoundEventId": "ATM_Power_On_Switch"
+        },
+        "Off": {
+          "CustomModelTexture": [
+            {
+              "Texture": "BlockTextures/CoinCurrency_Block_ATM.png"
+            }
+          ],
+          "CustomModel": "Blocks/CoinCurrency_Block_ATM.blockymodel",
+          "InteractionHint": "Access your bank account.",
+          "AllowsMultipleUsers": false,
+          "Looping": false
+        }
+      }
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Temple"
+    ]
+  },
+  "Scale": 0.6,
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "MaxStack": 1,
+  "Icon": "Icons/ItemsGenerated/CoinCurrency_Block_ATM.png"
+}

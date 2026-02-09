@@ -1,0 +1,41 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.CoinCurrency_Coin_Bronze.name",
+    "Description": "server.items.CoinCurrency_Coin_Bronze.description"
+  },
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "Model": "Resources/Coins/CoinCurrency_Coin.blockymodel",
+  "Texture": "Resources/Coin_Textures/CoinCurrency_Coin_Bronze.png",
+  "Quality": "Common",
+  "ItemLevel": 10,
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -1
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Coin_Currency_Coin_Bronze.png",
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null,
+    "ParticleColor": "#ffc900",
+    "ShowItemParticles": false
+  },
+  "DropOnDeath": true,
+  "MaxStack": 100,
+  "Scale": 0.75,
+  "ItemSoundSetId": "ISS_Coins"
+}

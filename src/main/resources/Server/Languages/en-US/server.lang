@@ -1,0 +1,16 @@
+items.CoinCurrency_Coin_Bronze.name=Bronze Coin
+items.CoinCurrency_Coin_Bronze.description=Value: 0.01 Coin\nOffical Server Currency
+items.CoinCurrency_Coin_Silver.name=Silver Coin
+items.CoinCurrency_Coin_Silver.description=Value: 0.10 Coin\nOffical Server Currency
+items.CoinCurrency_Coin_Gold.name=Gold Coin
+items.CoinCurrency_Coin_Gold.description=Value: 1.00 Coin\nOffical Server Currency
+items.CoinCurrency_Coin_Sapphire.name=Sapphire Coin
+items.CoinCurrency_Coin_Sapphire.description=Value: 10.00 Coin\nOffical Server Currency
+items.CoinCurrency_Coin_Ruby.name=Ruby Coin
+items.CoinCurrency_Coin_Ruby.description=Value: 100.00 Coin\nOffical Server Currency
+items.CoinCurrency_Coin_Emerald.name=Emerald Coin
+items.CoinCurrency_Coin_Emerald.description=Value: 1000.00 Coin\nOffical Server Currency
+items.CoinCurrency_Item_Wallet.name=Wallet
+items.CoinCurrency_Item_Wallet.description=Store your coins here!\nSee your account balance inside.
+items.CoinCurrency.Block.ATM.name=A.T.M
+items.CoinCurrency.Block.ATM.description=Place for players to access their Bank Accounts!

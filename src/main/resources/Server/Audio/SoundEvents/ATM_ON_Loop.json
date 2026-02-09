@@ -1,0 +1,13 @@
+{
+  "Layers": [
+    {
+      "Looping": true,
+      "Files": [
+        "Sounds/Blocks/ATM_ON_Loop.ogg"
+      ],
+      "Volume": 6.0
+    }
+  ],
+  "Volume": 0,
+  "Parent": "SFX_Attn_VeryQuiet"
+}

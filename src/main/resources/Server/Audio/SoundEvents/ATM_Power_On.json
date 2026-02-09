@@ -1,0 +1,13 @@
+{
+  "Layers": [
+    {
+      "Looping": false,
+      "Files": [
+        "Sounds/Blocks/ATM_Power_ON.ogg"
+      ],
+      "Volume": 0.32
+    }
+  ],
+  "Volume": 0,
+  "Parent": "SFX_Attn_VeryQuiet"
+}

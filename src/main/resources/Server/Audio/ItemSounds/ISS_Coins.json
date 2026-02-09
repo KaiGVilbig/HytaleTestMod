@@ -1,0 +1,6 @@
+{
+  "SoundEvents": {
+    "Drop": "Coin_Drop",
+    "Drag": "SFX_Drag_Coin"
+  }
+}
